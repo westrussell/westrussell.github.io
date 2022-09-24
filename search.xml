@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello</title>
+    <url>/2022/09/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>哄女朋友教学</title>
+    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
+<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
+<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
+<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
+<p>5、送礼物。女孩子都喜欢惊喜。</p>
+<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
+<p>7、坚定立场。坚定的站在女朋友这一边。</p>
+<p>8、适度的幽默。幽默的哄女朋友。</p>
+<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
+<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
+]]></content>
+      <tags>
+        <tag>恋爱</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo命令</title>
+    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
+<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
+<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
+<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
+<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+</search>
