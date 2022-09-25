@@ -134,7 +134,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">6</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">7</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -192,6 +192,66 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://russellshen.netlify.app/2022/09/25/js%E5%B8%B8%E8%A7%81%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/author.JPG">
+      <meta itemprop="name" content="West Shen">
+      <meta itemprop="description" content="秋刀鱼的滋味，猫跟你都想了解">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="靖甫の博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/09/25/js%E5%B8%B8%E8%A7%81%E9%A2%98/" class="post-title-link" itemprop="url">js常见题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-09-25 16:07:08" itemprop="dateCreated datePublished" datetime="2022-09-25T16:07:08+08:00">2022-09-25</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+    <div>
+  
+</div>
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://russellshen.netlify.app/2022/09/25/%E7%9C%BC%E4%B8%AD%E6%98%9F%E8%BE%B0%E7%9A%86%E6%98%AF%E4%BD%A0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -217,7 +277,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-09-25 15:00:52 / 修改时间：15:02:20" itemprop="dateCreated datePublished" datetime="2022-09-25T15:00:52+08:00">2022-09-25</time>
+              <time title="创建时间：2022-09-25 15:00:52 / 修改时间：17:32:13" itemprop="dateCreated datePublished" datetime="2022-09-25T15:00:52+08:00">2022-09-25</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -240,7 +300,230 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><img src="/2022/09/25/%E7%9C%BC%E4%B8%AD%E6%98%9F%E8%BE%B0%E7%9A%86%E6%98%AF%E4%BD%A0/girlfriend.jpg"></p>
+          <center>满目山河不及你，浩瀚星河皆为尘</center>
+
+<style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+       .bd {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom left, rgb(128, 232, 250), rgb(255, 66, 208), rgb(242, 0, 250));
+        }
+        
+        .zzl {
+            position: fixed;
+            overflow: hidden;
+            top: 7%;
+            left: 40%;
+            color: rgb(21, 219, 245);
+            font-family: Verdana;
+            font-size: 30px;
+            width: 0;
+            height: 40px;
+            line-height: 40px;
+            white-space: nowrap;
+            text-align: center;
+            animation: w 4s steps(4) infinite;
+        }
+        
+        @keyframes w {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 120px;
+            }
+        }
+        
+        .u {
+            position: relative;
+            display: flex;
+            height: 200px;
+        }
+        
+        .u::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            color: darkturquoise;
+            font-size: 30px;
+            font-weight: 700;
+            transform: translate(-50%, -700%);
+        }
+        
+        .l {
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            margin: 0 10px;
+        }
+        
+        .l:nth-child(1) {
+            background-color: red;
+            animation: love1 5s 0s infinite;
+        }
+        
+        .l:nth-child(2) {
+            background-color: darkturquoise;
+            animation: love2 5s 0.2s infinite;
+        }
+        
+        .l:nth-child(3) {
+            background-color: darksalmon;
+            animation: love3 5s 0.4s infinite;
+        }
+        
+        .l:nth-child(4) {
+            background-color: deeppink;
+            animation: love4 5s 0.6s infinite;
+        }
+        
+        .l:nth-child(5) {
+            background-color: rgb(20, 243, 150);
+            animation: love5 5s 0.8s infinite;
+        }
+        
+        .l:nth-child(6) {
+            background-color: deeppink;
+            animation: love4 5s 1s infinite;
+        }
+        
+        .l:nth-child(7) {
+            background-color: darksalmon;
+            animation: love3 5s 1.2s infinite;
+        }
+        
+        .l:nth-child(8) {
+            background-color: darkturquoise;
+            animation: love2 5s 1.4s infinite;
+        }
+        
+        .l:nth-child(9) {
+            background-color: red;
+            animation: love1 5s 1.6s infinite;
+        }
+        /* 下面定义动画 */
+        
+        @keyframes love1 {
+            30%,
+            50% {
+                height: 60px;
+                transform: translateY(-30px);
+            }
+            70%,
+            100% {
+                height: 20px;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes love2 {
+            30%,
+            50% {
+                height: 125px;
+                transform: translateY(-60px);
+            }
+            70%,
+            100% {
+                height: 20px;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes love3 {
+            30%,
+            50% {
+                height: 160px;
+                transform: translateY(-75px);
+            }
+            70%,
+            100% {
+                height: 20px;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes love4 {
+            30%,
+            50% {
+                height: 180px;
+                transform: translateY(-60px);
+            }
+            70%,
+            100% {
+                height: 20px;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes love5 {
+            30%,
+            50% {
+                height: 200px;
+                transform: translateY(-45px);
+            }
+            70%,
+            100% {
+                height: 20px;
+                transform: translateY(0);
+            }
+        }
+        
+        .lv .love {
+            position: fixed;
+            overflow: hidden;
+            top: 44%;
+            left: 32%;
+            color: darkturquoise;
+            font-family: Verdana;
+            width: 0;
+            height: 40px;
+            font-size: 40px;
+            line-height: 40px;
+            animation: 4s lo steps(4) infinite;
+        }
+        
+        @keyframes lo {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 200px;
+            }
+        }
+    </style>
+
+<div class="bd">
+
+<div class="zzl">胡科科</div>
+    <ul class="u">
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+        <li class="l"></li>
+    <div class="lv">
+        <h3 class="love">我 爱 你</h3>
+    </div>
+    </ul>
+    
+</div>
+<div style="text-align:center;font-size:20px;height:20px;line-height:20px">我想和你一起生活</div>
+
+<hr>
+<p><em>春天在新绿的树下拍照，夏天在晚风中吃甜筒，秋天去看苍黄的山林，冬天一起打盹。</em></p>
+<p><img src="/2022/09/25/%E7%9C%BC%E4%B8%AD%E6%98%9F%E8%BE%B0%E7%9A%86%E6%98%AF%E4%BD%A0/girlfriend.jpg"></p>
 
       
     </div>
@@ -263,7 +546,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://russellshen.netlify.app/2022/09/25/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">
+    <link itemprop="mainEntityOfPage" href="https://russellshen.netlify.app/2022/09/25/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/author.JPG">
@@ -277,7 +560,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/09/25/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-title-link" itemprop="url">HTML面试题</a>
+            <a href="/2022/09/25/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-title-link" itemprop="url">HTML面试题</a>
         </h2>
 
         <div class="post-meta">
@@ -288,7 +571,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-09-25 14:15:07 / 修改时间：14:18:05" itemprop="dateCreated datePublished" datetime="2022-09-25T14:15:07+08:00">2022-09-25</time>
+              <time title="创建时间：2022-09-25 14:15:07 / 修改时间：16:05:25" itemprop="dateCreated datePublished" datetime="2022-09-25T14:15:07+08:00">2022-09-25</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -311,7 +594,47 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <h1 id="1-关于HTML语义化的了解，你知道的都有哪些标签？"><a href="#1-关于HTML语义化的了解，你知道的都有哪些标签？" class="headerlink" title="1. 关于HTML语义化的了解，你知道的都有哪些标签？"></a>1. 关于HTML语义化的了解，你知道的都有哪些标签？</h1><p>header、footer、article、address都属于语义化明确的标签。</p>
+<p>①用正确的标签做正确的事情。</p>
+<p>②html 语义化让页面的内容结构化，结构更清晰，便于对浏览器、搜索引擎解析；即使在没有样式 CSS 情况下也以一种文档格式显示，并且是容易阅读的;</p>
+<p>③ 搜索引擎的爬虫也依赖于 HTML 标记来确定上下文和各个关键字的权重，利于 SEO;</p>
+<p>④ 使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解</p>
+<hr>
+<h1 id="2-HTML标签有哪些："><a href="#2-HTML标签有哪些：" class="headerlink" title="2.HTML标签有哪些："></a>2.HTML标签有哪些：</h1><h2 id="1-块级标签："><a href="#1-块级标签：" class="headerlink" title="1.块级标签："></a>1.块级标签：</h2><p>默认宽度100%(占满一行)；</p>
+<p>块级标签自动换行(独占一行，右边不能有任何东西)；</p>
+<p>块级标签可以使用CSS设置宽度高度！</p>
+<p>常用的块状元素有：div、 p、 h1 、h6、ol、ul、dl、table、address、blockquote、form</p>
+<h2 id="2-行级标签："><a href="#2-行级标签：" class="headerlink" title="2.行级标签："></a>2.行级标签：</h2><p>默认宽度由内容撑开(内容多宽、宽度就占多宽)；</p>
+<p>行级标签不会自动换行(一行当中，从左往右依次排列)；</p>
+<p>行级标签的宽度高度不能设置！ 常用的内联元素有：a、strong、b、em、i、del、s、ins、u、span</p>
+<p>常用的内联块状元素有：img、input</p>
+<hr>
+<h1 id="3-常见的浏览器端存储的方式"><a href="#3-常见的浏览器端存储的方式" class="headerlink" title="3.常见的浏览器端存储的方式"></a>3.常见的浏览器端存储的方式</h1><blockquote>
+<p>cookie属于文档对象模型DOM树根节点document，而 sessionStorage 和 localStorage 属于浏览器对象模型BOM的对象window</p>
+</blockquote>
+<h2 id="1-Cookie："><a href="#1-Cookie：" class="headerlink" title="1.Cookie："></a>1.Cookie：</h2><p>操作方式：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">cookie</span> = <span class="string">&quot;username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 GMT; path=/&quot;</span>    <span class="comment">// 设置cookie</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">cookie</span> = <span class="string">&quot;username=; expires=Thu, 01 Jan 1970 00:00:00 GMT&quot;</span>    <span class="comment">// 删除cookie</span></span><br></pre></td></tr></table></figure>
+<p>cookie会随着每次HTTP请求头信息一起发送，无形中增加了网络流量，另外，cookie能存储的数据容量有限，根据浏览器类型不同而不同，IE6大约只能存储2K。</p>
+<p>Cookie可以实现记录访问者的信息、在页面之间传递信息、自动识别用户。</p>
+<p>缺点：在请求头上面带着数据，导致流量增加，大小限制<font style="background:#f3f5f9;color:#83bf5b">4k</font></p>
+<h2 id="2-localStorage："><a href="#2-localStorage：" class="headerlink" title="2.localStorage："></a>2.localStorage：</h2><p>以键值对(Key-Value)的方式在本地存储，永久存储，永不失效，除非手动删除。IE8+支持，每个域名限制<font style="background:#f3f5f9;color:#83bf5b">5M</font></p>
+<p>打开同域的新页面也能访问得到</p>
+<p>操作方式：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="property">username</span> = <span class="string">&#x27;hehe&#x27;</span>                   <span class="comment">// 设置</span></span><br><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;username&#x27;</span>, <span class="string">&#x27;hehe&#x27;</span>)         <span class="comment">// 设置</span></span><br><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;username&#x27;</span>)                 <span class="comment">// 读取</span></span><br><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">removeItem</span>(<span class="string">&#x27;username&#x27;</span>)             <span class="comment">// 删除</span></span><br><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">key</span>(<span class="number">1</span>)                             <span class="comment">// 读取索引为1的值</span></span><br><span class="line"><span class="variable language_">window</span>.<span class="property">localStorage</span>.<span class="title function_">clear</span>()                            <span class="comment">// 清除所有</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="3-sessionStorage："><a href="#3-sessionStorage：" class="headerlink" title="3.sessionStorage："></a>3.sessionStorage：</h2><p>操作方式与localStorage一样，sessionStorage意为会话存储，当用户关闭页面窗口时数据就会被清除。</p>
+<p>注意：刷新页面sessionStorage不会清除，但是打开同域新页面访问不到。</p>
+<h2 id="4-cookie、localStorage、sessionStorage之间的区别"><a href="#4-cookie、localStorage、sessionStorage之间的区别" class="headerlink" title="4. cookie、localStorage、sessionStorage之间的区别"></a>4. cookie、localStorage、sessionStorage之间的区别</h2><p>他们都是保存在浏览器端的存储方式，他们之间的区别：</p>
+<ol>
+<li>cookie数据始终在同源的http请求中携带（即使不需要），即cookie在浏览器和服务器间来回传递。而sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。cookie数据还有路径（path）的概念，可以限制cookie只属于某个路径下。</li>
+<li>存储大小限制不同，cookie数据不能超过4k，同时因为每次http请求都会携带cookie，所以cookie只适合保存很小的数据，如会话标识。sessionStorage和localStorage 虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大。</li>
+<li>数据有效期不同，sessionStorage：仅在当前浏览器窗口关闭前有效，自然也就不可能持久保持；localStorage：始终有效，窗口或浏览器关闭也一直保存，因此用作持久数据；cookie只在设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭。</li>
+<li>作用域不同，sessionStorage不在不同的浏览器页面中共享，即使是同一个页面；localStorage 在所有同源窗口中都是共享的；cookie也是在所有同源窗口中都是共享的。</li>
+<li>Web Storage 支持事件通知机制，可以将数据更新的通知发送给监听者。</li>
+<li>Web Storage 的 api 接口使用更方便，cookie的原生接口不友好，需要自己封装。</li>
+</ol>
+
       
     </div>
 
@@ -732,7 +1055,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
