@@ -52,24 +52,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git常用命令</title>
-    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
-<p><strong>git查看配置信息</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
-<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
-<p><strong>第一次初始化：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
-<p><strong>平时工作基本操作：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello</title>
     <url>/2022/09/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -87,6 +69,24 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>git常用命令</title>
+    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
+<p><strong>git查看配置信息</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
+<p><strong>第一次初始化：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
+<p><strong>平时工作基本操作：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>命令</tag>
+      </tags>
   </entry>
   <entry>
     <title>hexo命令</title>
@@ -153,7 +153,7 @@
 
 <p><strong>call，apply，bind 它们的区别：</strong><br>call、apply 和 bind 的作用都是改变 this 的指向，其中 call 和 apply 的区别在于它们传参的方式不同——call 可以传多个形参，而 apply 只能传一个数组形参。</p>
 <p>而 bind 和 call、apply 的区别在于 bind 不会立即调用，而是返回一个函数对象，因此开发中一般用 bind 比较多</p>
-<h1 id="2-Promise-详解"><a href="#2-Promise-详解" class="headerlink" title="2. Promise 详解"></a>2. Promise 详解</h1><p>Promise 是异步编程的一种解决方案，其实是一个构造函数，自己身上有 all、reject、resolve 这几个方法，原型上有 then、catch 等方法</p>
+<h1 id="2-Promise-详解-用来解决回调地狱"><a href="#2-Promise-详解-用来解决回调地狱" class="headerlink" title="2. Promise 详解(用来解决回调地狱)"></a>2. Promise 详解(用来解决回调地狱)</h1><p>Promise 是异步编程的一种解决方案，其实是一个构造函数，自己身上有 all、reject、resolve 这几个方法，原型上有 then、catch 等方法</p>
 <blockquote>
 <p>三种状态:pending(进行中),fulfilled(已成功),rejected(已失败)</p>
 </blockquote>
@@ -180,7 +180,50 @@
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">test5</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="keyword">const</span> p5 = <span class="title class_">Promise</span>.<span class="title function_">reject</span>(<span class="number">6</span>)</span><br><span class="line">      <span class="keyword">const</span> data5 = <span class="keyword">await</span> p5</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;data5&#x27;</span>,data5);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">test5</span>()</span><br></pre></td></tr></table></figure>
 <p>写上try…catch,打印出<i style="color:red;background:#f3f5f9">error 6</i>,成功捕获到异常</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">test5</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="keyword">const</span> p5 = <span class="title class_">Promise</span>.<span class="title function_">reject</span>(<span class="number">6</span>)</span><br><span class="line">      <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="keyword">const</span> data5 = <span class="keyword">await</span> p5</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;data5&#x27;</span>,data5);</span><br><span class="line">      &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(<span class="string">&#x27;error&#x27;</span>,error);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">test5</span>()</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-闭包"><a href="#3-闭包" class="headerlink" title="3. 闭包"></a>3. 闭包</h1><ol>
+<li>函数作为返回值<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>) &#123;</span><br><span class="line">     <span class="keyword">const</span> a = <span class="number">1</span>;</span><br><span class="line">     <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;a&quot;</span>, a);</span><br><span class="line">     &#125;;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">const</span> fn = <span class="title function_">test</span>();</span><br><span class="line">   <span class="keyword">const</span> a = <span class="number">2</span>;</span><br><span class="line">   <span class="title function_">fn</span>(); <span class="comment">//打印a,1</span></span><br></pre></td></tr></table></figure></li>
+<li>函数作为参数<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params">fn</span>)&#123;</span><br><span class="line">      <span class="keyword">const</span> a= <span class="number">1</span></span><br><span class="line">      <span class="title function_">fn</span>()</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">const</span> a =<span class="number">2</span></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">fn</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;a&#x27;</span>,a);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">test</span>(fn) <span class="comment">//打印出a,2</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>总结:闭包函数内的参数数据外部不可以访问</p>
+</blockquote>
+</li>
+</ol>
+<h1 id="4-js的防抖与节流"><a href="#4-js的防抖与节流" class="headerlink" title="4. js的防抖与节流"></a>4. js的防抖与节流</h1><ol>
+<li>防抖：将多次操作变成一次<br><em>通过setTimeout的方式，在一定的时间间隔内，将多次触发变成一次触发</em></li>
+</ol>
+<hr>
+<p>触发高频事件后n秒内函数只会执行一次，如果n秒内高频事件再次被触发，则重新计算时间。</p>
+<p>实现方式：每次触发事件时设置一个延迟调用方法，并且取消之前的延时调用方法</p>
+<p>缺点：如果事件在规定的时间间隔内被不断的触发，则调用方法会被不断的延迟</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> /&gt;</span></span></span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">let</span> tel = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;input&quot;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">let</span> timeOut = <span class="literal">null</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    tel.<span class="property">oninput</span> = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      <span class="keyword">if</span> (timeOut !== <span class="literal">null</span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="built_in">clearTimeout</span>(timeOut);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      timeOut = <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">value</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      &#125;, <span class="number">500</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>节流：使得一定时间内只触发一次函数。原理是通过判断是否有延迟调用函数未执行。<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//节流throttle代码：</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">throttle</span>(<span class="params">fn,delay</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> canRun = <span class="literal">true</span>; <span class="comment">// 通过闭包保存一个标记</span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">         <span class="comment">// 在函数开头判断标记是否为true，不为true则return</span></span><br><span class="line">        <span class="keyword">if</span> (!canRun) <span class="keyword">return</span>;</span><br><span class="line">         <span class="comment">// 立即设置为false</span></span><br><span class="line">        canRun = <span class="literal">false</span>;</span><br><span class="line">        <span class="comment">// 将外部传入的函数的执行放在setTimeout中</span></span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123; </span><br><span class="line">        <span class="comment">// 最后在setTimeout执行完毕后再把标记设置为true(关键)表示可以执行下一次循环了。</span></span><br><span class="line">        <span class="comment">// 当定时器没有执行的时候标记永远是false，在开头被return掉</span></span><br><span class="line">            fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">            canRun = <span class="literal">true</span>;</span><br><span class="line">        &#125;, delay);</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">sayHi</span>(<span class="params">e</span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;节流：&#x27;</span>, e.<span class="property">target</span>.<span class="property">innerWidth</span>, e.<span class="property">target</span>.<span class="property">innerHeight</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;resize&#x27;</span>, <span class="title function_">throttle</span>(sayHi,<span class="number">500</span>));</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="5-原型与原型链"><a href="#5-原型与原型链" class="headerlink" title="5. 原型与原型链"></a>5. 原型与原型链</h1><p><em>在js中，每定义一个对象（函数也是对象）时，对象中包含一些预定义的属性，其中每个对象都有一个prototype属性，这个属性指向函数的原型对象</em></p>
+<ol>
+<li>原型</li>
+</ol>
+<p>student.__proto &#x3D;&#x3D;&#x3D; Student.prototype<br>      隐式原型  ***************  显式原型</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line">      <span class="title function_">constructor</span>(<span class="params">name,score</span>) &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = name</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">score</span> = score</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="title function_">introduce</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`我是<span class="subst">$&#123;<span class="variable language_">this</span>.name&#125;</span>,考了<span class="subst">$&#123;<span class="variable language_">this</span>.score&#125;</span>分`</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">const</span> s1 = <span class="keyword">new</span> <span class="title class_">Student</span>(<span class="string">&#x27;张三&#x27;</span>,<span class="number">19</span>)</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(s1);</span><br></pre></td></tr></table></figure>
+<hr>
+<p>每个对象都有一个prototype属性<br><img src="/2022/09/25/js%E5%B8%B8%E8%A7%81%E9%A2%98/prototype.png#pic_left"><br>2. 原型链：</p>
+<blockquote>
+<p>当访问一个对象的属性或方法时，首先会去自身查找，如果找不到的话，就会去它的原型上去找，如果原型上还是找不到，它就会去它原型的原型上去找。</p>
+</blockquote>
+<p><em>这样就形成了一条链式的结构，称为原型链</em></p>
 ]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue常见题</title>
+    <url>/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>学习</category>
       </categories>
@@ -207,17 +250,6 @@
       </categories>
       <tags>
         <tag>恋爱</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue常见题</title>
-    <url>/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>面试</tag>
       </tags>
   </entry>
   <entry>
