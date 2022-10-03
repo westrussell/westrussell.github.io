@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git常用命令</title>
+    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
+<p><strong>git查看配置信息</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
+<p><strong>第一次初始化：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
+<p><strong>平时工作基本操作：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML面试题</title>
     <url>/2022/09/25/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     <content><![CDATA[<h1 id="1-关于HTML语义化的了解，你知道的都有哪些标签？"><a href="#1-关于HTML语义化的了解，你知道的都有哪些标签？" class="headerlink" title="1. 关于HTML语义化的了解，你知道的都有哪些标签？"></a>1. 关于HTML语义化的了解，你知道的都有哪些标签？</h1><p>header、footer、article、address都属于语义化明确的标签。</p>
@@ -52,22 +70,49 @@
       </tags>
   </entry>
   <entry>
-    <title>git常用命令</title>
-    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
-<p><strong>git查看配置信息</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
-<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
-<p><strong>第一次初始化：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
-<p><strong>平时工作基本操作：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
+    <title>hexo命令</title>
+    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
+<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
+<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
+<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
+<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
       <tags>
         <tag>命令</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello</title>
+    <url>/2022/09/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>js常见题</title>
@@ -188,10 +233,40 @@
 <ol start="6">
 <li>类</li>
 </ol>
-<p>ES6 中有 class 语法。值得注意是，这里的 class 不是新的对象继承模型，1它只是<code>原型链的语法糖 </code>表现形式。</p>
+<p>ES6 中有 class 语法。值得注意是，这里的 class 不是新的对象继承模型，它只是<code>原型链的语法糖 </code>表现形式。</p>
 <h1 id="7-实现继承的几种方式"><a href="#7-实现继承的几种方式" class="headerlink" title="7. 实现继承的几种方式"></a>7. 实现继承的几种方式</h1><ol>
-<li>原型链继承<br>父类的实例作为子类的原型</li>
-<li>借用构造函数继承</li>
+<li>原型链继承<br>父类的实例作为子类的原型<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">age</span> = <span class="number">18</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">getName</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">name</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">get</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">Student</span>(<span class="params"></span>) &#123;&#125;</span><br><span class="line">    <span class="title class_">Student</span>.<span class="property"><span class="keyword">prototype</span></span> = <span class="keyword">new</span> <span class="title class_">Person</span>()</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">age</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure></li>
+</ol>
+<blockquote>
+<p>优点：父类方法可以复用</p>
+</blockquote>
+<blockquote>
+<p>缺点：1. 父类的所有引用类型数据（对象、数组）会被子类共享，更改子类数据会影响其他数据<br>2. 子类实例不能给构造函数传参</p>
+</blockquote>
+<ol start="2">
+<li>借用构造函数继承<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">age</span> = <span class="number">18</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">getName</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">name</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">get</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">Student</span>(<span class="params"></span>) &#123;</span><br><span class="line">      <span class="title class_">Person</span>.<span class="title function_">call</span>(<span class="variable language_">this</span>)<span class="comment">//使用call改变this指向</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">age</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    <span class="comment">// stu.get()</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<blockquote>
+<p>优点：父类的引用类型的数据不会被子类共享，不会互相影响</p>
+</blockquote>
+<blockquote>
+<p>缺点:子类不能访问父类原型属性上的方法和参数</p>
+</blockquote>
+<ol start="3">
+<li>组合继承(前两种方法结合)<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">age</span> = <span class="number">18</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">getName</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">name</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">get</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">Student</span>(<span class="params"></span>) &#123;</span><br><span class="line">       <span class="title class_">Person</span>.<span class="title function_">call</span>(<span class="variable language_">this</span>)<span class="comment">//使用call改变this指向</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Student</span>.<span class="property"><span class="keyword">prototype</span></span> = <span class="keyword">new</span> <span class="title class_">Person</span>()</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">age</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure></li>
+</ol>
+<blockquote>
+<p>优点：父类方法可以复用，父类构造函数中的引用属性数据不会被共享</p>
+</blockquote>
+<blockquote>
+<p>缺点：会调用两次父类的构造函数，会有两份一样的属性和方法，会影响性能</p>
+</blockquote>
+<ol start="4">
+<li><p>寄生组合继承<code>目前最优继承方式</code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">age</span> = <span class="number">18</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">getName</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">name</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">get</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">Student</span>(<span class="params"></span>) &#123;</span><br><span class="line">       <span class="title class_">Person</span>.<span class="title function_">call</span>(<span class="variable language_">this</span>)<span class="comment">//使用call改变this指向</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// Student.prototype = new Person()</span></span><br><span class="line">    <span class="keyword">const</span> <span class="title class_">Fn</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;&#125;</span><br><span class="line">    fn.<span class="property"><span class="keyword">prototype</span></span> = <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span></span><br><span class="line">    <span class="title class_">Student</span>.<span class="property"><span class="keyword">prototype</span></span> = <span class="keyword">new</span> <span class="title class_">Fn</span>()</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">age</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>class类继承</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">      <span class="title function_">constructor</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">eats</span> = [<span class="string">&quot;苹果&quot;</span>]</span><br><span class="line">        get=<span class="function">()=&gt;</span>&#123;</span><br><span class="line">          <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype上的方法&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span> <span class="keyword">extends</span> <span class="title class_ inherited__">Person</span>&#123;&#125;</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">eats</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h1 id="8-new关键字做了什么"><a href="#8-new关键字做了什么" class="headerlink" title="8. new关键字做了什么"></a>8. new关键字做了什么</h1><ol>
 <li>创建一个空的对象</li>
@@ -199,7 +274,15 @@
 <li>把构造函数中的 this 指向新创建的空对象并执行构造函数返回执行结果</li>
 <li>判断返回的执行结果是否为引用类型，如果为引用类型，new操作失败，否则返回新的对象</li>
 </ol>
-]]></content>
+<h1 id="9-深拷贝与浅拷贝"><a href="#9-深拷贝与浅拷贝" class="headerlink" title="9. 深拷贝与浅拷贝"></a>9. 深拷贝与浅拷贝</h1><blockquote>
+<p>深拷贝（互不影响）***浅拷贝（藕断丝连）</p>
+</blockquote>
+<h2 id="1-数组与对象的赋值都叫做浅拷贝"><a href="#1-数组与对象的赋值都叫做浅拷贝" class="headerlink" title="1. 数组与对象的赋值都叫做浅拷贝"></a>1. 数组与对象的赋值都叫做浅拷贝</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="keyword">let</span> newArr = arr</span><br><span class="line">newArr.<span class="title function_">push</span>(<span class="number">4</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(arr,newArr);<span class="comment">//影响原数组[1,2,3,4]</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="10-解构赋值"><a href="#10-解构赋值" class="headerlink" title="10. 解构赋值"></a>10. 解构赋值</h1><blockquote>
+<p>注意两边结构要完全一样</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//数组的解构赋值--交换变量</span></span><br><span class="line">    <span class="keyword">let</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">let</span> b = <span class="number">20</span>;</span><br><span class="line">    [a,b] = [b,a];</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(a);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(b);</span><br><span class="line">    <span class="comment">//对象的解构赋值</span></span><br><span class="line">    <span class="keyword">let</span> obj=&#123;</span><br><span class="line">      <span class="attr">name</span>:<span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">      <span class="attr">age</span>:<span class="number">2</span>,</span><br><span class="line">      <span class="attr">sex</span>:<span class="string">&#x27;男&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> &#123;name,age&#125;=obj</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(name);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(age);</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>学习</category>
       </categories>
@@ -707,51 +790,6 @@
       <tags>
         <tag>面试</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>hexo命令</title>
-    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
-<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
-<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
-<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
-<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello</title>
-    <url>/2022/09/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>哄女朋友教学</title>
