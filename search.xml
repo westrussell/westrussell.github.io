@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>git常用命令</title>
-    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
-<p><strong>git查看配置信息</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
-<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
-<p><strong>第一次初始化：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
-<p><strong>平时工作基本操作：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML面试题</title>
     <url>/2022/09/25/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     <content><![CDATA[<h1 id="1-关于HTML语义化的了解，你知道的都有哪些标签？"><a href="#1-关于HTML语义化的了解，你知道的都有哪些标签？" class="headerlink" title="1. 关于HTML语义化的了解，你知道的都有哪些标签？"></a>1. 关于HTML语义化的了解，你知道的都有哪些标签？</h1><p>header、footer、article、address都属于语义化明确的标签。</p>
@@ -96,6 +78,24 @@
       </tags>
   </entry>
   <entry>
+    <title>git常用命令</title>
+    <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><strong>查看git常用命令</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --help </span><br></pre></td></tr></table></figure>
+<p><strong>git查看配置信息</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+<p><strong>配置个人的用户名称和电子邮件地址</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;root&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email test@github.com</span><br></pre></td></tr></table></figure>
+<p><strong>第一次初始化：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &#x27;first commit&#x27;</span><br><span class="line">git remote add origin git@github.com:帐号名/仓库名.git</span><br><span class="line">git pull origin master</span><br><span class="line">git push origin master # -f 强推</span><br></pre></td></tr></table></figure>
+<p><strong>平时工作基本操作：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git checkout master # 切到主分支</span><br><span class="line">git fetch origin  # 获取最新变更</span><br><span class="line">git checkout -b dev origin/master # 基于主分支创建dev分支</span><br><span class="line">git add . # 添加到缓存</span><br><span class="line">git commit -m &#x27;xxx&#x27; # 提交到本地仓库</span><br><span class="line">git fetch origin # 获取最新变更</span><br><span class="line">git rebase dev origin/master # 合并到主分支</span><br><span class="line">git push origin dev # 推送到远程分支</span><br><span class="line"></span><br><span class="line">git chekout master # 切到主分支</span><br><span class="line">git merge dev # 合并开发分支</span><br><span class="line"></span><br><span class="line">git clone -b 远程分支 仓库地址 # 本地不存在仓库 拉取远程分支代码</span><br><span class="line">git checkout -b 远程分支 origin/远程分支 # 本地存在仓库，拉取远程分支</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello</title>
     <url>/2022/09/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -115,9 +115,33 @@
 ]]></content>
   </entry>
   <entry>
+    <title>哄女朋友教学</title>
+    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
+<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
+<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
+<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
+<p>5、送礼物。女孩子都喜欢惊喜。</p>
+<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
+<p>7、坚定立场。坚定的站在女朋友这一边。</p>
+<p>8、适度的幽默。幽默的哄女朋友。</p>
+<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
+<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
+]]></content>
+      <categories>
+        <category>恋爱</category>
+      </categories>
+      <tags>
+        <tag>恋爱</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>js常见题</title>
     <url>/2022/09/25/js%E5%B8%B8%E8%A7%81%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="1-this-指向问题"><a href="#1-this-指向问题" class="headerlink" title="1. this 指向问题"></a>1. this 指向问题</h1><h2 id="1-直接输出-this-指向全局"><a href="#1-直接输出-this-指向全局" class="headerlink" title="1. 直接输出 this 指向全局"></a>1. 直接输出 this 指向全局</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>);<span class="comment">//指向window</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="js的基本数据类型"><a href="#js的基本数据类型" class="headerlink" title="js的基本数据类型"></a>js的基本数据类型</h1><p>JavaScript的数据类型分为两种：原始类型（即基本数据类型）和对象类型（即引用数据类型）。</p>
+<p>●　常用的基本数据类型包括<code>undefined、null、number、boolean、string、symbol；</code></p>
+<p>●　引用数据类型也就是对象类型，比如：<code>Object、array、function、data</code>等；</p>
+<h1 id="this-指向问题"><a href="#this-指向问题" class="headerlink" title="this 指向问题"></a>this 指向问题</h1><h2 id="1-直接输出-this-指向全局"><a href="#1-直接输出-this-指向全局" class="headerlink" title="1. 直接输出 this 指向全局"></a>1. 直接输出 this 指向全局</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>);<span class="comment">//指向window</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="全局函数其实时-window（全局对象）-这里面的-this-也指向-window"><a href="#全局函数其实时-window（全局对象）-这里面的-this-也指向-window" class="headerlink" title="全局函数其实时 window（全局对象）,这里面的 this 也指向 window"></a>全局函数其实时 window（全局对象）,这里面的 this 也指向 window</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">fn</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">fun</span>();<span class="comment">//window</span></span><br></pre></td></tr></table></figure>
 
@@ -153,7 +177,7 @@
 
 <p><strong>call，apply，bind 它们的区别：</strong><br>call、apply 和 bind 的作用都是改变 this 的指向，其中 call 和 apply 的区别在于它们传参的方式不同——call 可以传多个形参，而 apply 只能传一个数组形参。</p>
 <p>而 bind 和 call、apply 的区别在于 bind 不会立即调用，而是返回一个函数对象，因此开发中一般用 bind 比较多</p>
-<h1 id="2-Promise-详解-用来解决回调地狱"><a href="#2-Promise-详解-用来解决回调地狱" class="headerlink" title="2. Promise 详解(用来解决回调地狱)"></a>2. Promise 详解(用来解决回调地狱)</h1><p>Promise 是异步编程的一种解决方案，其实是一个构造函数，自己身上有 all、reject、resolve 这几个方法，原型上有 then、catch 等方法</p>
+<h1 id="Promise-详解-用来解决回调地狱"><a href="#Promise-详解-用来解决回调地狱" class="headerlink" title="Promise 详解(用来解决回调地狱)"></a>Promise 详解(用来解决回调地狱)</h1><p>Promise 是异步编程的一种解决方案，其实是一个构造函数，自己身上有 all、reject、resolve 这几个方法，原型上有 then、catch 等方法</p>
 <blockquote>
 <p>三种状态:pending(进行中),fulfilled(已成功),rejected(已失败)</p>
 </blockquote>
@@ -181,7 +205,7 @@
 <p>写上try…catch,打印出<i style="color:red;background:#f3f5f9">error 6</i>,成功捕获到异常</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">test5</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="keyword">const</span> p5 = <span class="title class_">Promise</span>.<span class="title function_">reject</span>(<span class="number">6</span>)</span><br><span class="line">      <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="keyword">const</span> data5 = <span class="keyword">await</span> p5</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;data5&#x27;</span>,data5);</span><br><span class="line">      &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(<span class="string">&#x27;error&#x27;</span>,error);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">test5</span>()</span><br></pre></td></tr></table></figure>
 
-<h1 id="3-闭包"><a href="#3-闭包" class="headerlink" title="3. 闭包"></a>3. 闭包</h1><ol>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><ol>
 <li>函数作为返回值<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>) &#123;</span><br><span class="line">     <span class="keyword">const</span> a = <span class="number">1</span>;</span><br><span class="line">     <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;a&quot;</span>, a);</span><br><span class="line">     &#125;;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">const</span> fn = <span class="title function_">test</span>();</span><br><span class="line">   <span class="keyword">const</span> a = <span class="number">2</span>;</span><br><span class="line">   <span class="title function_">fn</span>(); <span class="comment">//打印a,1</span></span><br></pre></td></tr></table></figure></li>
 <li>函数作为参数<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params">fn</span>)&#123;</span><br><span class="line">      <span class="keyword">const</span> a= <span class="number">1</span></span><br><span class="line">      <span class="title function_">fn</span>()</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">const</span> a =<span class="number">2</span></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">fn</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;a&#x27;</span>,a);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">test</span>(fn) <span class="comment">//打印出a,2</span></span><br></pre></td></tr></table></figure>
 <blockquote>
@@ -189,7 +213,7 @@
 </blockquote>
 </li>
 </ol>
-<h1 id="4-js的防抖与节流"><a href="#4-js的防抖与节流" class="headerlink" title="4. js的防抖与节流"></a>4. js的防抖与节流</h1><ol>
+<h1 id="js的防抖与节流"><a href="#js的防抖与节流" class="headerlink" title="js的防抖与节流"></a>js的防抖与节流</h1><ol>
 <li>防抖：将多次操作变成一次<br><em>通过setTimeout的方式，在一定的时间间隔内，将多次触发变成一次触发</em></li>
 </ol>
 <hr>
@@ -200,7 +224,7 @@
 <ol start="2">
 <li>节流：使得一定时间内只触发一次函数。原理是通过判断是否有延迟调用函数未执行。<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//节流throttle代码：</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">throttle</span>(<span class="params">fn,delay</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> canRun = <span class="literal">true</span>; <span class="comment">// 通过闭包保存一个标记</span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">         <span class="comment">// 在函数开头判断标记是否为true，不为true则return</span></span><br><span class="line">        <span class="keyword">if</span> (!canRun) <span class="keyword">return</span>;</span><br><span class="line">         <span class="comment">// 立即设置为false</span></span><br><span class="line">        canRun = <span class="literal">false</span>;</span><br><span class="line">        <span class="comment">// 将外部传入的函数的执行放在setTimeout中</span></span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123; </span><br><span class="line">        <span class="comment">// 最后在setTimeout执行完毕后再把标记设置为true(关键)表示可以执行下一次循环了。</span></span><br><span class="line">        <span class="comment">// 当定时器没有执行的时候标记永远是false，在开头被return掉</span></span><br><span class="line">            fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">            canRun = <span class="literal">true</span>;</span><br><span class="line">        &#125;, delay);</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">sayHi</span>(<span class="params">e</span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;节流：&#x27;</span>, e.<span class="property">target</span>.<span class="property">innerWidth</span>, e.<span class="property">target</span>.<span class="property">innerHeight</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;resize&#x27;</span>, <span class="title function_">throttle</span>(sayHi,<span class="number">500</span>));</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
 </ol>
-<h1 id="5-原型与原型链"><a href="#5-原型与原型链" class="headerlink" title="5. 原型与原型链"></a>5. 原型与原型链</h1><p><em>在js中，每定义一个对象（函数也是对象）时，对象中包含一些预定义的属性，其中每个对象都有一个prototype属性，这个属性指向函数的原型对象</em></p>
+<h1 id="原型与原型链"><a href="#原型与原型链" class="headerlink" title="原型与原型链"></a>原型与原型链</h1><p><em>在js中，每定义一个对象（函数也是对象）时，对象中包含一些预定义的属性，其中每个对象都有一个prototype属性，这个属性指向函数的原型对象</em></p>
 <ol>
 <li>原型</li>
 </ol>
@@ -212,7 +236,7 @@
 <p>当访问一个对象的属性或方法时，首先会去自身查找，如果找不到的话，就会去它的原型上去找，如果原型上还是找不到，它就会去它原型的原型上去找。</p>
 </blockquote>
 <p><em>这样就形成了一条链式的结构，称为原型链</em></p>
-<h1 id="6-ES6新特性"><a href="#6-ES6新特性" class="headerlink" title="6. ES6新特性"></a>6. ES6新特性</h1><ol>
+<h1 id="ES6新特性"><a href="#ES6新特性" class="headerlink" title="ES6新特性"></a>ES6新特性</h1><ol>
 <li><p>let（ let 允许创建块级作用域（最靠近的一个花括号内有效），不具备变量提升，不允许重复声明 ）、const（ const 允许创建块级作用域变量声明不提升）</p>
 </li>
 <li><p>箭头函数 ES6 中，箭头函数就是函数的一种简写形式，使用括号包裹参数，跟随一个 &#x3D;&gt;，紧接着是函数体：</p>
@@ -234,7 +258,7 @@
 <li>类</li>
 </ol>
 <p>ES6 中有 class 语法。值得注意是，这里的 class 不是新的对象继承模型，它只是<code>原型链的语法糖 </code>表现形式。</p>
-<h1 id="7-实现继承的几种方式"><a href="#7-实现继承的几种方式" class="headerlink" title="7. 实现继承的几种方式"></a>7. 实现继承的几种方式</h1><ol>
+<h1 id="实现继承的几种方式"><a href="#实现继承的几种方式" class="headerlink" title="实现继承的几种方式"></a>实现继承的几种方式</h1><ol>
 <li>原型链继承<br>父类的实例作为子类的原型<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">age</span> = <span class="number">18</span></span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">getName</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">name</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title class_">Person</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">get</span> = <span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">Student</span>(<span class="params"></span>) &#123;&#125;</span><br><span class="line">    <span class="title class_">Student</span>.<span class="property"><span class="keyword">prototype</span></span> = <span class="keyword">new</span> <span class="title class_">Person</span>()</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">age</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure></li>
 </ol>
 <blockquote>
@@ -268,21 +292,22 @@
 <li><p>class类继承</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">      <span class="title function_">constructor</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = <span class="string">&#x27;小明&#x27;</span></span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">eats</span> = [<span class="string">&quot;苹果&quot;</span>]</span><br><span class="line">        get=<span class="function">()=&gt;</span>&#123;</span><br><span class="line">          <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Person.prototype上的方法&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span> <span class="keyword">extends</span> <span class="title class_ inherited__">Person</span>&#123;&#125;</span><br><span class="line">    <span class="keyword">const</span> stu = <span class="keyword">new</span> <span class="title class_">Student</span>()</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">name</span>);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(stu.<span class="property">eats</span>);</span><br><span class="line">    stu.<span class="title function_">getName</span>()</span><br><span class="line">    stu.<span class="title function_">get</span>()</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h1 id="8-new关键字做了什么"><a href="#8-new关键字做了什么" class="headerlink" title="8. new关键字做了什么"></a>8. new关键字做了什么</h1><ol>
+<h1 id="new关键字做了什么"><a href="#new关键字做了什么" class="headerlink" title="new关键字做了什么"></a>new关键字做了什么</h1><ol>
 <li>创建一个空的对象</li>
 <li>把这个对象的隐式原型<code>(__proto __)</code>指向构造函数的原型对象</li>
 <li>把构造函数中的 this 指向新创建的空对象并执行构造函数返回执行结果</li>
 <li>判断返回的执行结果是否为引用类型，如果为引用类型，new操作失败，否则返回新的对象</li>
 </ol>
-<h1 id="9-深拷贝与浅拷贝"><a href="#9-深拷贝与浅拷贝" class="headerlink" title="9. 深拷贝与浅拷贝"></a>9. 深拷贝与浅拷贝</h1><blockquote>
+<h1 id="深拷贝与浅拷贝"><a href="#深拷贝与浅拷贝" class="headerlink" title="深拷贝与浅拷贝"></a>深拷贝与浅拷贝</h1><blockquote>
 <p>深拷贝（互不影响）***浅拷贝（藕断丝连）</p>
 </blockquote>
 <h2 id="1-数组与对象的赋值都叫做浅拷贝"><a href="#1-数组与对象的赋值都叫做浅拷贝" class="headerlink" title="1. 数组与对象的赋值都叫做浅拷贝"></a>1. 数组与对象的赋值都叫做浅拷贝</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="keyword">let</span> newArr = arr</span><br><span class="line">newArr.<span class="title function_">push</span>(<span class="number">4</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(arr,newArr);<span class="comment">//影响原数组[1,2,3,4]</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="10-解构赋值"><a href="#10-解构赋值" class="headerlink" title="10. 解构赋值"></a>10. 解构赋值</h1><blockquote>
+<h1 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h1><blockquote>
 <p>注意两边结构要完全一样</p>
 </blockquote>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//数组的解构赋值--交换变量</span></span><br><span class="line">    <span class="keyword">let</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">let</span> b = <span class="number">20</span>;</span><br><span class="line">    [a,b] = [b,a];</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(a);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(b);</span><br><span class="line">    <span class="comment">//对象的解构赋值</span></span><br><span class="line">    <span class="keyword">let</span> obj=&#123;</span><br><span class="line">      <span class="attr">name</span>:<span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">      <span class="attr">age</span>:<span class="number">2</span>,</span><br><span class="line">      <span class="attr">sex</span>:<span class="string">&#x27;男&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> &#123;name,age&#125;=obj</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(name);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(age);</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//数组的解构赋值--交换变量</span></span><br><span class="line">    <span class="keyword">let</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">let</span> b = <span class="number">20</span>;</span><br><span class="line">    [a,b] = [b,a];</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(a);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(b);</span><br><span class="line">    <span class="comment">//对象的解构赋值</span></span><br><span class="line">    <span class="keyword">let</span> obj=&#123;</span><br><span class="line">      <span class="attr">name</span>:<span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">      <span class="attr">age</span>:<span class="number">2</span>,</span><br><span class="line">      <span class="attr">sex</span>:<span class="string">&#x27;男&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> &#123;name,age&#125;=obj</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(name);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(age);</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>学习</category>
       </categories>
@@ -789,27 +814,6 @@
       </categories>
       <tags>
         <tag>面试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>哄女朋友教学</title>
-    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
-<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
-<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
-<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
-<p>5、送礼物。女孩子都喜欢惊喜。</p>
-<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
-<p>7、坚定立场。坚定的站在女朋友这一边。</p>
-<p>8、适度的幽默。幽默的哄女朋友。</p>
-<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
-<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
-]]></content>
-      <categories>
-        <category>恋爱</category>
-      </categories>
-      <tags>
-        <tag>恋爱</tag>
       </tags>
   </entry>
   <entry>
