@@ -52,32 +52,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo命令</title>
-    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
-<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
-<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
-<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
-<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>git常用命令</title>
     <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p><strong>查看git常用命令</strong></p>
@@ -115,24 +89,29 @@
 ]]></content>
   </entry>
   <entry>
-    <title>哄女朋友教学</title>
-    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
-<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
-<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
-<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
-<p>5、送礼物。女孩子都喜欢惊喜。</p>
-<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
-<p>7、坚定立场。坚定的站在女朋友这一边。</p>
-<p>8、适度的幽默。幽默的哄女朋友。</p>
-<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
-<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
+    <title>hexo命令</title>
+    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
+<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
+<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
+<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
+<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
       <categories>
-        <category>恋爱</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>恋爱</tag>
+        <tag>命令</tag>
       </tags>
   </entry>
   <entry>
@@ -318,7 +297,16 @@
   <entry>
     <title>vue常见题</title>
     <url>/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Vue3快速上手"><a href="#Vue3快速上手" class="headerlink" title="Vue3快速上手"></a>Vue3快速上手</h1><img src="https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png" style="width:200px">
+    <content><![CDATA[<h1 id="MVC与MVVM"><a href="#MVC与MVVM" class="headerlink" title="MVC与MVVM"></a>MVC与MVVM</h1><p><strong>MVC</strong></p>
+<p>MVC是包括view视图层、controller控制层、model数据层。各部分之间的通信都是单向的。</p>
+<p>View 传送指令到 ControllerController 完成业务逻辑后，要求 Model 改变状态Model 将新的数据发送到 View，用户得到反馈</p>
+<p><img src="/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/MVC.jpg"></p>
+<p><strong>MVVM</strong></p>
+<p>MVVM包括view视图层、model数据层、viewmodel层。各部分通信都是双向的。采用双向数据绑定，View的变动，自动反映在 ViewModel，反之亦然。其中ViewModel层，就是View和Model层的粘合剂，他是一个放置用户输入验证逻辑，视图显示逻辑，发起网络请求和其他各种各样的代码的极好的地方。<br><img src="/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/MVVM.jpg"></p>
+<blockquote>
+<p>MVVM与MVC的区别有：1、mvvm各部分的通信是双向的，而mvc各部分通信是单向的；2、mvvm是真正将页面与数据逻辑分离放到js里去实现，而mvc里面未分离。</p>
+</blockquote>
+<h1 id="Vue3快速上手"><a href="#Vue3快速上手" class="headerlink" title="Vue3快速上手"></a>Vue3快速上手</h1><img src="https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png" style="width:200px">
 
 
 
@@ -814,6 +802,27 @@
       </categories>
       <tags>
         <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>哄女朋友教学</title>
+    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
+<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
+<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
+<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
+<p>5、送礼物。女孩子都喜欢惊喜。</p>
+<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
+<p>7、坚定立场。坚定的站在女朋友这一边。</p>
+<p>8、适度的幽默。幽默的哄女朋友。</p>
+<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
+<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
+]]></content>
+      <categories>
+        <category>恋爱</category>
+      </categories>
+      <tags>
+        <tag>恋爱</tag>
       </tags>
   </entry>
   <entry>
