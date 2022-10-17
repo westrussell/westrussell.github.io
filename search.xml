@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello</title>
-    <url>/2022/09/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>HTML面试题</title>
     <url>/2022/09/25/HTML%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     <content><![CDATA[<h1 id="1-关于HTML语义化的了解，你知道的都有哪些标签？"><a href="#1-关于HTML语义化的了解，你知道的都有哪些标签？" class="headerlink" title="1. 关于HTML语义化的了解，你知道的都有哪些标签？"></a>1. 关于HTML语义化的了解，你知道的都有哪些标签？</h1><p>header、footer、article、address都属于语义化明确的标签。</p>
@@ -71,6 +52,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello</title>
+    <url>/2022/09/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>git常用命令</title>
     <url>/2022/09/24/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p><strong>查看git常用命令</strong></p>
@@ -89,9 +89,51 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo命令</title>
+    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
+<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
+<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
+<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
+<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
+<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
+<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
+<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>js常见题</title>
     <url>/2022/09/25/js%E5%B8%B8%E8%A7%81%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="js的基本数据类型"><a href="#js的基本数据类型" class="headerlink" title="js的基本数据类型"></a>js的基本数据类型</h1><p>JavaScript的数据类型分为两种：原始类型（即基本数据类型）和对象类型（即引用数据类型）。</p>
+    <content><![CDATA[<h1 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h1><h2 id="ES6常用Set去重"><a href="#ES6常用Set去重" class="headerlink" title="ES6常用Set去重"></a>ES6常用Set去重</h2><blockquote>
+<p>Set对象是值的集合，你可以按照插入的顺序迭代它的元素。 Set中的元素只会出现一次，即 Set 中的元素是唯一的。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">unique</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="title class_">Array</span>.<span class="title function_">from</span>(<span class="keyword">new</span> <span class="title class_">Set</span>(arr))</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">1</span>,<span class="string">&#x27;saa&#x27;</span>,<span class="string">&#x27;saa&#x27;</span>,<span class="number">11</span>,<span class="number">22</span>,<span class="number">22</span>]</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">unique</span>(arr));<span class="comment">// [1, &#x27;saa&#x27;, 11, 22]</span></span><br><span class="line">    <span class="keyword">let</span> <span class="title function_">unique2</span> =arr=&gt;&#123;</span><br><span class="line">       <span class="keyword">return</span> [...<span class="keyword">new</span> <span class="title class_">Set</span>(arr)]</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">unique2</span>(arr));<span class="comment">// [1, &#x27;saa&#x27;, 11, 22]</span></span><br></pre></td></tr></table></figure>
+<h2 id="双重for循环"><a href="#双重for循环" class="headerlink" title="双重for循环"></a>双重for循环</h2><blockquote>
+<p>外层循环元素，内层循环时比较值。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">unique</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.<span class="property">length</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> j = i + <span class="number">1</span>; j &lt; arr.<span class="property">length</span>; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (arr[i] == arr[j]) &#123;         <span class="comment">//第一个等同于第二个，splice方法删除第二个</span></span><br><span class="line">                arr.<span class="title function_">splice</span>(j, <span class="number">1</span>);</span><br><span class="line">                j--;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> arr;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>, <span class="number">1</span>, <span class="string">&#x27;true&#x27;</span>, <span class="string">&#x27;true&#x27;</span>, <span class="literal">true</span>, <span class="literal">true</span>, <span class="number">15</span>, <span class="number">15</span>];</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">unique</span>(arr))<span class="comment">// [ 1, &#x27;true&#x27;, true, 15 ]</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="indexOf或includes去重"><a href="#indexOf或includes去重" class="headerlink" title="indexOf或includes去重"></a>indexOf或includes去重</h2><blockquote>
+<p>当数组内没有该元素时，indexOf返回-1，则把它push进新数组。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">unique</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> array = [];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.<span class="property">length</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (array .<span class="title function_">indexOf</span>(arr[i]) === -<span class="number">1</span>) &#123;</span><br><span class="line">            array .<span class="title function_">push</span>(arr[i])</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> array;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>includes() 方法用于判断字符串是否包含指定的子字符串。如果找到匹配的字符串则返回 true，否则返回 false。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">unique</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> array = [];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arr.<span class="property">length</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (!array.<span class="title function_">includes</span>( arr[i]) ) &#123;</span><br><span class="line">            array .<span class="title function_">push</span>(arr[i])</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> array;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="js的基本数据类型"><a href="#js的基本数据类型" class="headerlink" title="js的基本数据类型"></a>js的基本数据类型</h1><p>JavaScript的数据类型分为两种：原始类型（即基本数据类型）和对象类型（即引用数据类型）。</p>
 <p>●　常用的基本数据类型包括<code>undefined、null、number、boolean、string、symbol；</code></p>
 <p>●　引用数据类型也就是对象类型，比如：<code>Object、array、function、data</code>等；</p>
 <h1 id="this-指向问题"><a href="#this-指向问题" class="headerlink" title="this 指向问题"></a>this 指向问题</h1><h2 id="1-直接输出-this-指向全局"><a href="#1-直接输出-this-指向全局" class="headerlink" title="1. 直接输出 this 指向全局"></a>1. 直接输出 this 指向全局</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>);<span class="comment">//指向window</span></span><br></pre></td></tr></table></figure>
@@ -266,32 +308,6 @@
       </categories>
       <tags>
         <tag>面试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo命令</title>
-    <url>/2022/09/22/hexo%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
-<li>新建分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new 名称或hexo n 名称</span><br></pre></td></tr></table></figure></li>
-<li>新建草稿：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new draft 名称或hexo n draft 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成文章：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish 名称或hexo p 名称</span><br></pre></td></tr></table></figure></li>
-<li>草稿生成分页：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo publish page 名称或hexo p page 名称</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
-<li>清除已生成文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></li>
-<li>运行本地服务器（预览草稿）：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s --drafts</span><br></pre></td></tr></table></figure></li>
-<li>生成静态文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></li>
-<li>部署到服务器：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-<li>生成并部署文件：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g -d或hexo d -g</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>命令</tag>
       </tags>
   </entry>
   <entry>
@@ -845,6 +861,27 @@
       </tags>
   </entry>
   <entry>
+    <title>哄女朋友教学</title>
+    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
+<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
+<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
+<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
+<p>5、送礼物。女孩子都喜欢惊喜。</p>
+<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
+<p>7、坚定立场。坚定的站在女朋友这一边。</p>
+<p>8、适度的幽默。幽默的哄女朋友。</p>
+<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
+<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
+]]></content>
+      <categories>
+        <category>恋爱</category>
+      </categories>
+      <tags>
+        <tag>恋爱</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>眼中星辰皆是你</title>
     <url>/2022/09/25/%E7%9C%BC%E4%B8%AD%E6%98%9F%E8%BE%B0%E7%9A%86%E6%98%AF%E4%BD%A0/</url>
     <content><![CDATA[<center>满目山河不及你，浩瀚星河皆为尘</center>
@@ -1070,27 +1107,6 @@
 
 <hr>
 <p><em>春天在新绿的树下拍照，夏天在晚风中吃甜筒，秋天去看苍黄的山林，冬天一起打盹。</em><br><img src="/2022/09/25/%E7%9C%BC%E4%B8%AD%E6%98%9F%E8%BE%B0%E7%9A%86%E6%98%AF%E4%BD%A0/girlfriend.jpg"></p>
-]]></content>
-      <categories>
-        <category>恋爱</category>
-      </categories>
-      <tags>
-        <tag>恋爱</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>哄女朋友教学</title>
-    <url>/2022/09/23/%E5%93%84%E5%A5%B3%E6%9C%8B%E5%8F%8B%E6%95%99%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h1><p>1、带她出门旅游。一个新的环境可以增加你们生活的中的乐趣。</p>
-<p>2、关心她。她的无理取闹也是为了博得你的关注，你的暖心回应会让她开心一些。</p>
-<p>3、陪伴她。最好的关爱就是陪伴，陪她做她想做的事情。</p>
-<p>4、理解她。每个人都有不一样的爱好和习惯。</p>
-<p>5、送礼物。女孩子都喜欢惊喜。</p>
-<p>6、找原因。找到女朋友不开心的原因，从源头解决问题。</p>
-<p>7、坚定立场。坚定的站在女朋友这一边。</p>
-<p>8、适度的幽默。幽默的哄女朋友。</p>
-<p>9、脸皮厚。哄女朋友的时候一定要脸皮厚。</p>
-<p>10、用行动代替言语。不要给女朋友画大饼，要付出行动。</p>
 ]]></content>
       <categories>
         <category>恋爱</category>
