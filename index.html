@@ -223,7 +223,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-10-15 16:17:02" itemprop="dateModified" datetime="2022-10-15T16:17:02+08:00">2022-10-15</time>
+                <time title="修改时间：2022-10-18 16:55:39" itemprop="dateModified" datetime="2022-10-18T16:55:39+08:00">2022-10-18</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,6 +247,15 @@
 
       
           <h1 id="Vue的数据绑定机制"><a href="#Vue的数据绑定机制" class="headerlink" title="Vue的数据绑定机制"></a>Vue的数据绑定机制</h1><p><strong>响应式对象</strong><br>Vue2 通过 <code>Object.defineProperty</code>，Vue3 通过 Proxy 来劫持 state 中各个属性的 setter、getter，通过 getter 收集依赖。当 state 中的数据发生变动之后发布通知给订阅者更新数据。<br><strong>双向绑定</strong><br>Vue 通过 <code>v-model</code> 实现双向绑定。v-model 实际是 v-bind:xxx 和 v-on:xxx 的语法糖。当触发元素对应的事件（如 input、change 等）时更新数据（ViewModel），当数据（ViewModel）更新时同步更新到元素的对应属性（View）上。</p>
+<h1 id="Vue的diff算法"><a href="#Vue的diff算法" class="headerlink" title="Vue的diff算法"></a>Vue的diff算法</h1><p><code>diff</code>算法是一种通过同层的树节点进行比较的高效算法</p>
+<blockquote>
+<p>特点：1.比较只会在同层级进行，不会跨层级比较<br>2.在diff比较的过程中，循环从两边向中间比较<br>在 vue 中，作用于虚拟 <code>dom</code> 渲染成真实 <code>dom</code> 的新旧 <code>VNode</code> 节点比较</p>
+</blockquote>
+<h2 id="比较方式"><a href="#比较方式" class="headerlink" title="比较方式"></a>比较方式</h2><p><code>diff</code>整体策略为：深度优先，同层比较</p>
+<ol>
+<li>比较只会在同层级进行, 不会跨层级比较<br><img src="/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/diff.png"></li>
+<li>比较的过程中，循环从两边向中间收拢<br><img src="/2022/09/26/vue%E5%B8%B8%E8%A7%81%E9%A2%98/diff2.png"></li>
+</ol>
 <h1 id="Vue-的-computed-和-watch-的区别"><a href="#Vue-的-computed-和-watch-的区别" class="headerlink" title="Vue 的 computed 和 watch 的区别"></a>Vue 的 computed 和 watch 的区别</h1><p>computed 是模板表达式的声明式描述，<code>会创建新的响应式数据</code>。而 watch 是响应式数据的<code>自定义侦听器</code>，用于响应数据的变化。除此之外，computed 还具有可缓存，可依赖多个属性，getter 函数无副作用等特点。watch 则更<code>适用于异步或开销大的操作</code></p>
 <h1 id="Vue项目中解决跨域"><a href="#Vue项目中解决跨域" class="headerlink" title="Vue项目中解决跨域"></a>Vue项目中解决跨域</h1><ol>
 <li>跨域是什么？<br>跨域本质是浏览器基于<code>同源策略</code>的一种安全手段</li>
@@ -838,7 +847,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-10-17 20:11:41" itemprop="dateModified" datetime="2022-10-17T20:11:41+08:00">2022-10-17</time>
+                <time title="修改时间：2022-10-18 17:24:15" itemprop="dateModified" datetime="2022-10-18T17:24:15+08:00">2022-10-18</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -861,7 +870,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h1><h2 id="ES6常用Set去重"><a href="#ES6常用Set去重" class="headerlink" title="ES6常用Set去重"></a>ES6常用Set去重</h2><blockquote>
+          <h1 id="null与undefined的区别"><a href="#null与undefined的区别" class="headerlink" title="null与undefined的区别"></a>null与undefined的区别</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="literal">null</span>==<span class="literal">undefined</span>);<span class="comment">//true</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="literal">null</span>===<span class="literal">undefined</span>);<span class="comment">//false</span></span><br></pre></td></tr></table></figure>
+<p>可看到两者相等，但是null不全等于undefined</p>
+<hr>
+<p>null： <code>object</code>类型，代表“空值”，代表一个空对象指针</p>
+<p>undefined： <code>undefined</code>类型，未定义的值</p>
+<h1 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h1><h2 id="ES6常用Set去重"><a href="#ES6常用Set去重" class="headerlink" title="ES6常用Set去重"></a>ES6常用Set去重</h2><blockquote>
 <p>Set对象是值的集合，你可以按照插入的顺序迭代它的元素。 Set中的元素只会出现一次，即 Set 中的元素是唯一的。</p>
 </blockquote>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">unique</span>(<span class="params">arr</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="title class_">Array</span>.<span class="title function_">from</span>(<span class="keyword">new</span> <span class="title class_">Set</span>(arr))</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">1</span>,<span class="string">&#x27;saa&#x27;</span>,<span class="string">&#x27;saa&#x27;</span>,<span class="number">11</span>,<span class="number">22</span>,<span class="number">22</span>]</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">unique</span>(arr));<span class="comment">// [1, &#x27;saa&#x27;, 11, 22]</span></span><br><span class="line">    <span class="keyword">let</span> <span class="title function_">unique2</span> =arr=&gt;&#123;</span><br><span class="line">       <span class="keyword">return</span> [...<span class="keyword">new</span> <span class="title class_">Set</span>(arr)]</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">unique2</span>(arr));<span class="comment">// [1, &#x27;saa&#x27;, 11, 22]</span></span><br></pre></td></tr></table></figure>
