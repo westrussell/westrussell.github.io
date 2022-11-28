@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"russellshen.netlify.app","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="单元测试、集成测试、系统测试、验收测试、回归测试 单元测试：完成最小的软件设计单元（模块）的验证工作，目标是确保模块被正确的编码 集成测试：通过测试发现与模块接口有关的问题，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。2.1 自顶向下集成：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块">
+  <meta name="description" content="单元测试、集成测试、系统测试、验收测试、回归测试 单元测试：完成最小的软件设计单元（模块）的验证工作，目标是确保模块被正确的编码（针对源代码） 集成测试：又称接口测试，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。2.1 自顶向下集成：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块的模块">
 <meta property="og:type" content="article">
 <meta property="og:title" content="测试">
 <meta property="og:url" content="https://russellshen.netlify.app/2022/11/27/%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="靖甫の博客">
-<meta property="og:description" content="单元测试、集成测试、系统测试、验收测试、回归测试 单元测试：完成最小的软件设计单元（模块）的验证工作，目标是确保模块被正确的编码 集成测试：通过测试发现与模块接口有关的问题，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。2.1 自顶向下集成：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块">
+<meta property="og:description" content="单元测试、集成测试、系统测试、验收测试、回归测试 单元测试：完成最小的软件设计单元（模块）的验证工作，目标是确保模块被正确的编码（针对源代码） 集成测试：又称接口测试，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。2.1 自顶向下集成：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块的模块">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-27T12:26:09.000Z">
-<meta property="article:modified_time" content="2022-11-27T12:48:54.254Z">
+<meta property="article:modified_time" content="2022-11-28T08:17:32.745Z">
 <meta property="article:author" content="West Shen">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -218,10 +218,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-11-27 20:26:09 / 修改时间：20:48:54" itemprop="dateCreated datePublished" datetime="2022-11-27T20:26:09+08:00">2022-11-27</time>
+              <time title="创建时间：2022-11-27 20:26:09" itemprop="dateCreated datePublished" datetime="2022-11-27T20:26:09+08:00">2022-11-27</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-11-28 16:17:32" itemprop="dateModified" datetime="2022-11-28T16:17:32+08:00">2022-11-28</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -251,11 +257,11 @@
 
       
         <h1 id="单元测试、集成测试、系统测试、验收测试、回归测试"><a href="#单元测试、集成测试、系统测试、验收测试、回归测试" class="headerlink" title="单元测试、集成测试、系统测试、验收测试、回归测试"></a>单元测试、集成测试、系统测试、验收测试、回归测试</h1><ol>
-<li>单元测试：完成最小的软件设计单元（模块）的验证工作，目标是<code>确保模块被正确的编码</code></li>
-<li>集成测试：通过测试发现与模块接口有关的问题，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。<br>2.1 <strong>自顶向下集成</strong>：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块的模块按照深度优先或广度优先的方式集成到整个结构中去。<br>2.2 <strong>自底向上集成</strong>：从原子模块开始来进行构造和测试，因为模块是自底向上集成的，进行时要求所有隶属于某个给顶层次的模块总是存在的，也不再有使用稳定测试桩的必要。</li>
+<li>单元测试：完成最小的软件设计单元（模块）的验证工作，目标是<code>确保模块被正确的编码</code>（针对源代码）</li>
+<li>集成测试：又称接口测试，目标是把通过了单元测试的模块拿来，构造一个在设计中所描述的程序结构，应当避免一次性的集成（除非软件规模很小），而采用增量集成。<br>2.1 <strong>自顶向下集成</strong>：模块集成的顺序是首先集成主模块，然后按照控制层次结构向下进行集成，隶属于主模块的模块按照深度优先或广度优先的方式集成到整个结构中去。<br>2.2 <strong>自底向上集成</strong>：从原子模块开始来进行构造和测试，因为模块是自底向上集成的，进行时要求所有隶属于某个给顶层次的模块总是存在的，也不再有使用稳定测试桩的必要。</li>
 <li>系统测试:是基于系统整体需求说明书的黑盒类测试，应覆盖系统所有联合的部件。系统测试是针对整个产品系统进行的测试，目的是验证系统是否满足了需求规格的定义，找出与需求规格不相符合或与之矛盾的地方。</li>
 <li>回归测试:回归测试是指在发生修改之后重新测试先前的测试用例以保证修改的正确性。根据修复好了的缺陷再重新进行测试</li>
-<li>验收测试:验收测试是指系统开发生命周期方法论的一个阶段，这时相关的用户或独立测试人员根据测试计划和结果对系统进行测试和接收<br>5.1 <strong>Alpha测试</strong>：是由用户在开发者的场所来进行的，在一个受控的环境中进行。<br>5.2 <strong>Beta测试</strong>：由软件的最终用户在一个或多个用户场所来进行的，开发者通常不在现场，用户记录测试中遇到的问题并报告给开发者，开发者对系统进行最后的修改，并开始准备发布最终的软件。</li>
+<li>验收测试:主要分为内测，公测，使用不同的人群来发掘项目缺陷<br>5.1 <strong>Alpha测试</strong>：是由用户在开发者的场所来进行的，在一个受控的环境中进行。<br>5.2 <strong>Beta测试</strong>：由软件的最终用户在一个或多个用户场所来进行的，开发者通常不在现场，用户记录测试中遇到的问题并报告给开发者，开发者对系统进行最后的修改，并开始准备发布最终的软件。</li>
 </ol>
 <h1 id="黑盒测试与白盒测试"><a href="#黑盒测试与白盒测试" class="headerlink" title="黑盒测试与白盒测试"></a>黑盒测试与白盒测试</h1><h2 id="黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。"><a href="#黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。" class="headerlink" title="黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。"></a>黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。</h2><ol>
 <li>等价类划分法<br>等价类划分法是一种典型的黑盒测试方法，它将程序所有可能的输入数据划分为若干个等价类。然后从每个部分中选取具有代表性的数据当做测试用例。测试用例由有效等价类和无效等价类的代表数据组成，从而保证测试用例具有完整性和代表性。</li>
@@ -271,6 +277,16 @@
 <li>条件组合覆盖:每个条件的每种组合。在白盒测试法中，选择足够的测试用例，使所有判定中各条件判断结果的所有组合至少出现一次，满足这种覆盖标准成为条件组合覆盖。</li>
 <li>路径覆盖:所有路径至少执行一次。</li>
 </ol>
+<h1 id="质量模型"><a href="#质量模型" class="headerlink" title="质量模型"></a>质量模型</h1><h2 id="功能、性能、兼容、易用、安全-important-、可靠性、移植性、维护性"><a href="#功能、性能、兼容、易用、安全-important-、可靠性、移植性、维护性" class="headerlink" title="功能、性能、兼容、易用、安全(important)、可靠性、移植性、维护性"></a><code>功能、性能、兼容、易用、安全</code>(important)、可靠性、移植性、维护性</h2><h1 id="用例设计编写格式-说明"><a href="#用例设计编写格式-说明" class="headerlink" title="用例设计编写格式-说明"></a>用例设计编写格式-说明</h1><ul>
+<li>用例编号：项目_模块_编号</li>
+<li>用例标题：预期结果（测试点）</li>
+<li>模块&#x2F;项目：所属项目或模块</li>
+<li>优先级：表示用例的重要程度或者影响力P0~p4(P0最高)</li>
+<li>前置条件：要执行此条用例，有哪些前置操作</li>
+<li>测试步骤：描述操作步骤</li>
+<li>测试数据：操作的数据，没有的话可以为空</li>
+<li>预期结果：期望达到的结果</li>
+</ul>
 
     </div>
 
@@ -364,7 +380,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E3%80%81%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%E3%80%81%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95%E3%80%81%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95%E3%80%81%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">单元测试、集成测试、系统测试、验收测试、回归测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E4%B8%8E%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95"><span class="nav-number">2.</span> <span class="nav-text">黑盒测试与白盒测试</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%8F%88%E7%A7%B0%E4%B8%BA%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%A3%80%E6%B5%8B%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%8A%9F%E8%83%BD%E6%98%AF%E5%90%A6%E8%83%BD%E5%A4%9F%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E3%80%82"><span class="nav-number">2.1.</span> <span class="nav-text">黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95%EF%BC%9A%E4%B9%9F%E7%A7%B0%E4%B8%BA%E7%BB%93%E6%9E%84%E6%B5%8B%E8%AF%95%EF%BC%8C%E4%B8%BB%E8%A6%81%E5%BA%94%E7%94%A8%E4%BA%8E%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5%EF%BC%8C%E6%A3%80%E6%B5%8B%E8%BD%AF%E4%BB%B6%E7%BC%96%E7%A0%81%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E3%80%82"><span class="nav-number">2.2.</span> <span class="nav-text">白盒测试：也称为结构测试，主要应用于单元测试阶段，检测软件编码过程中的错误。</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E3%80%81%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%E3%80%81%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95%E3%80%81%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95%E3%80%81%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">单元测试、集成测试、系统测试、验收测试、回归测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E4%B8%8E%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95"><span class="nav-number">2.</span> <span class="nav-text">黑盒测试与白盒测试</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%8F%88%E7%A7%B0%E4%B8%BA%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%A3%80%E6%B5%8B%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%8A%9F%E8%83%BD%E6%98%AF%E5%90%A6%E8%83%BD%E5%A4%9F%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E3%80%82"><span class="nav-number">2.1.</span> <span class="nav-text">黑盒测试：又称为功能测试，主要检测软件的每一个功能是否能够正常使用。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95%EF%BC%9A%E4%B9%9F%E7%A7%B0%E4%B8%BA%E7%BB%93%E6%9E%84%E6%B5%8B%E8%AF%95%EF%BC%8C%E4%B8%BB%E8%A6%81%E5%BA%94%E7%94%A8%E4%BA%8E%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5%EF%BC%8C%E6%A3%80%E6%B5%8B%E8%BD%AF%E4%BB%B6%E7%BC%96%E7%A0%81%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E3%80%82"><span class="nav-number">2.2.</span> <span class="nav-text">白盒测试：也称为结构测试，主要应用于单元测试阶段，检测软件编码过程中的错误。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B4%A8%E9%87%8F%E6%A8%A1%E5%9E%8B"><span class="nav-number">3.</span> <span class="nav-text">质量模型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E3%80%81%E6%80%A7%E8%83%BD%E3%80%81%E5%85%BC%E5%AE%B9%E3%80%81%E6%98%93%E7%94%A8%E3%80%81%E5%AE%89%E5%85%A8-important-%E3%80%81%E5%8F%AF%E9%9D%A0%E6%80%A7%E3%80%81%E7%A7%BB%E6%A4%8D%E6%80%A7%E3%80%81%E7%BB%B4%E6%8A%A4%E6%80%A7"><span class="nav-number">3.1.</span> <span class="nav-text">功能、性能、兼容、易用、安全(important)、可靠性、移植性、维护性</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A8%E4%BE%8B%E8%AE%BE%E8%AE%A1%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F-%E8%AF%B4%E6%98%8E"><span class="nav-number">4.</span> <span class="nav-text">用例设计编写格式-说明</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
