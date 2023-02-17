@@ -2,6 +2,7 @@
 **my personal blog**
 For learning notes，enjoy coding,enjoy life...
 
+[myblog](https://westrussell.github.io)
 
 useage
 ```
